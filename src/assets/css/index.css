@@ -1,6 +1,7 @@
 body {
-    background-image: linear-gradient(to right top, #67dfde, #35c4b1, #01a87f, #008c4b, #0c6f0f);
+    background-image: linear-gradient(to right top, #eccce8, #d8a2c8, #c478a4, #b14d7e, #9b1556);
     height: 100vh;
+    background-attachment: fixed;
 }
 
 h1{

@@ -15,14 +15,14 @@ const BreweryCard = ({ brewery }) => {
         getBreweryData();
     }, [brewery]);
 
-    const noBreweryStyle = { backgroundColor: '#666', color: 'white' };
+    const noBreweryStyle = { backgroundColor: '#D8BAC4', color: 'black' };
     const style = !breweryData?.isBrewery ? noBreweryStyle : {};
 
     // URL de ejemplo si no hay imagen en la API
     const imageUrl = breweryImages[brewery] || "https://via.placeholder.com/200";
 
     return (
-        <div className="card col-3 m-2" style={{ width: "18rem", ...style }}>
+        <div className="card col-3 m-2" style={{ width: "16rem", ...style }}>
             <img
                 src={imageUrl}
                 className="card-img-top"
@@ -41,6 +41,9 @@ const BreweryCard = ({ brewery }) => {
                 </p>
                 <p className="card-text">
                     Código Postal: {breweryData?.postal_code}
+                </p>
+                <p className="card-text">
+                    ID: {breweryData?.id}
                 </p>
             </div>
         </div>
