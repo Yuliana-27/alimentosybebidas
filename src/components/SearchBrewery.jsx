@@ -48,3 +48,7 @@ const SearchBrewery = ({ setBreweries }) => {
 };
 
 export default SearchBrewery;
+
+
+//FIN DEL PROYECTO//
+//LISTA DE CERVECERIAS//

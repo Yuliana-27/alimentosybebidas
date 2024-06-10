@@ -58,3 +58,6 @@ const breweryImages = {
 };
 
 export default breweryImages;
+
+
+//MAPEO DE IMAGENES DE LAS CERVECERIAS//

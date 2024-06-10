@@ -51,3 +51,6 @@ const BreweryCard = ({ brewery }) => {
 };
 
 export default BreweryCard;
+
+//FIN DEL PROYECTO//
+//LISTA DE CERVECERIAS//
